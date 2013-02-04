@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Msvcr90_Exception", "Msvcr90_Exception\Msvcr90_Exception.vcproj", "{94F7AC53-CC58-4D47-8876-8F9ACE168E72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Debug|Win32.Build.0 = Debug|Win32
+		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Release|Win32.ActiveCfg = Release|Win32
+		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
