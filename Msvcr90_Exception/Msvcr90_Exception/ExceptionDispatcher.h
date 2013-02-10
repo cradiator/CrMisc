@@ -73,11 +73,16 @@ typedef struct _Msvcr90ExceptionRegistrationRecord {
 } Msvcr90ExceptionRegistrationRecord;
 
 
-_EXCEPTION_DISPATCHER_API
-EXCEPTION_DISPOSITION __cdecl
+_EXCEPTION_DISPATCHER_API EXCEPTION_DISPOSITION __cdecl
 cr_except_handler4_common(DWORD                 *CookiePointer, 
                           PCOOKIE_CHECK_ROUTINE CookieCheckFunction,
                           EXCEPTION_RECORD      *ExceptionRecord,
                           Msvcr90ExceptionRegistrationRecord *EstablishFrame,
                           CONTEXT               *ContextRecord,
                           PVOID                 *DispatcherContext);
+
+
+
+// It is the export function used by test client.
+_EXCEPTION_DISPATCHER_API bool WINAPI HookExceptionRoutine();
+

@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Msvcr90_Exception", "Msvcr90_Exception\Msvcr90_Exception.vcproj", "{94F7AC53-CC58-4D47-8876-8F9ACE168E72}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "msvcr90_Exception", "msvcr90_Exception\msvcr90_Exception.vcproj", "{9784A53C-189D-4107-9262-4B8362F8F403}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestClient", "TestClient\TestClient.vcproj", "{21AA80B0-DAD7-4787-851B-5A87DE95625F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9784A53C-189D-4107-9262-4B8362F8F403} = {9784A53C-189D-4107-9262-4B8362F8F403}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +14,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Debug|Win32.ActiveCfg = Debug|Win32
-		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Debug|Win32.Build.0 = Debug|Win32
-		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Release|Win32.ActiveCfg = Release|Win32
-		{94F7AC53-CC58-4D47-8876-8F9ACE168E72}.Release|Win32.Build.0 = Release|Win32
+		{9784A53C-189D-4107-9262-4B8362F8F403}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9784A53C-189D-4107-9262-4B8362F8F403}.Debug|Win32.Build.0 = Debug|Win32
+		{9784A53C-189D-4107-9262-4B8362F8F403}.Release|Win32.ActiveCfg = Release|Win32
+		{9784A53C-189D-4107-9262-4B8362F8F403}.Release|Win32.Build.0 = Release|Win32
+		{21AA80B0-DAD7-4787-851B-5A87DE95625F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21AA80B0-DAD7-4787-851B-5A87DE95625F}.Debug|Win32.Build.0 = Debug|Win32
+		{21AA80B0-DAD7-4787-851B-5A87DE95625F}.Release|Win32.ActiveCfg = Release|Win32
+		{21AA80B0-DAD7-4787-851B-5A87DE95625F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
