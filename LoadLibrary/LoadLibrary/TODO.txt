@@ -1,0 +1,15 @@
+DOING:
+	crLoadLibraryExW
+
+TO IMPLEMENT:
+	BaseSetLastNTError
+	BasepLocateExeLdrEntry
+	
+	LdrEnumerateLoadedModules
+	
+TO IMPORT:
+	RtlEnterCriticalSection
+
+DONE:
+	crLdrEnumerateLoadedModules
+	
